@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Death Note</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .store {
+            width: 900px;
+            border: 3px solid purple;
+            margin: 74px 265px;
+            outline: 10px solid rgb(214, 115, 115);
+            background-color: #94a7a7;
+        }
+
+        .item {
+            border: 2px solid rgb(245 65 10);
+    margin: 25px 26px;
+    padding: 12px 16px;
+    background-color: #cdf9f9;
+        }
+
+        .btn {
+            border: 2px solid rgb(6, 136, 153);
+            cursor: pointer;
+            border-radius: 4px;
+            margin: 27px 12px;
+            padding: 12px 24px;
+            outline: 5px solid rgb(99, 99, 209);
+            background-color: #ada1f0;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background-color: rgb(223, 58, 107);
+        }
+
+        .navbar {
+
+            background-color: black;
+            outline: 5px solid rgb(73, 69, 69);
+            border-radius: 7px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+
+        }
+
+        .navbar ul :hover {
+            background-color: red;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 11px 11px;
+        }
+
+        .navbar li a {
+            padding: 3px 27px;
+            text-decoration: none;
+            color: white;
+        }
+
+        #laptop {
+            float: left;
+            width: 48%;
+            outline: 9px solid rgb(212, 212, 97);
+
+        }
+
+        #computer {
+
+            float: right;
+            clear: left;
+            outline: 9px solid rgb(212, 212, 97);
+            width: 48%;
+        }
+
+        #mobile {
+            outline: 9px solid rgb(212, 212, 97);
+            clear: both;
+            width: 30%;
+            
+
+        }
+
+        .top {
+            background-color: #b6c7c7;
+            border: 2px solid red;
+            margin: auto;
+            outline: 15px solid rgb(231, 142, 142);
+            width: 1200px;
+        }
+
+        h2 {
+            margin: 17px 311px;
+            border: azure;
+            text-shadow: 5px 3px rgb(250, 171, 171);
+        }
+
+        h1 {
+            text-align: center;
+            text-shadow: 5px 3px rgb(250, 171, 171);
+
+            margin: 2px;
+        }
+
+        img {
+            margin: auto;
+            display: block;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <header class="top">
+            <img src="pic1.jpg" alt="">
+            <h1>Welcome to the Electronic store</h1>
+        </header>
+    </div>
+    <div>
+        <nav class="navbar">
+            <ul>
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#">About</a> </li>
+                <li> <a href="#">Services</a> </li>
+                <li> <a href="#">Contact us</a> </li>
+                <li> <a href="#">Feedback</a> </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="store">
+        <h2>Electronics Store</h1>
+            <div id="laptop" class="item">
+                <h3>Laptops</h3>
+                <p id="linfo" class="para">
+                    A laptop, laptop computer, or notebook computer is a small, portable persona
+                    l computer (PC) with a screen and alphanumeric keyboard. Laptops typically have a
+                    clam shell form factor with the screen mounted on the inside of the upper lid and
+                    the keyboard on the inside of the lower lid, although 2-in-1 PCs with a detachable keyboard
+                    are often marketed as laptops or as having a laptop mode. Laptops are folded shut for
+                    transportation, and thus are suitable for mobile use.[1] They are so named because they
+                    be practically placed on a person's lap when being used. Today, laptops are used in a variety
+                    of settings, such as at work, in education, for playing games, web browsing, for personal
+                    multimedia, and for general home computer use
+                </p>
+            </div>
+            <div id="computer" class="item">
+                <h3>computers</h3>
+                <p id="cinfo" class="para">
+                    A computer is a digital electronic machine that can be programmed to carry out sequences of
+                    arithmetic
+                    or logical operations (computation) automatically. Modern computers can perform generic sets of
+                    operations known as programs. These programs enable computers to perform a wide range of tasks. A
+                    computer system is a "complete" computer that includes the hardware, operating system (main
+                    software), and peripheral equipment needed and used for "full" operation. This term may also refer
+                    to a group
+                    of computers that are linked and function together, such as a computer network or computer cluster.
+                </p>
+            </div>
+            <div id="mobile" class="item">
+                <h3>mobile</h3>
+                <p id="minfo" class="para">
+                    A mobile phone, cellular phone, cell phone, cellphone, handphone, hand phone or pocket phone,
+                    sometimes shortened to simply mobile, cell, or just phone, is a portable telephone that can make and
+                    receive calls over a radio frequency link while the user is moving within a telephone service area.
+                    The radio frequency link establishes a connection to the switching systems of a mobile phone
+                    operator, which provides access to the public switched telephone network (PSTN).
+                </p>
+            </div>
+            <a href="https://www.youtube.com/" class="btn">GOOGLE</a>
+            <button class="btn">BUTTON</button>
+
+    </div>
+
+</body>
+
+</html>
