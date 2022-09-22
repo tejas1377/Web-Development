@@ -1,0 +1,91 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.PC {
+    color:#f6f8ec;
+    background-color: rgb(12, 12, 11);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:58px;
+    list-style: none;
+    text-align: center;
+    padding: 0px 12px;
+    margin: 11px 139px;
+}
+
+.cc {
+    color: rgb(0, 13, 255);
+    border: 1px solid rgb(207, 219, 100);
+    background-color: rgb(241, 146, 82);
+    border-radius: 10px;
+    font-style: italic;
+    font-family: cursive;
+    padding:0px 0px;
+    text-align: center;
+    margin: 1px 400px;
+    
+}
+
+.navbar {
+            
+    background-color: black;
+    border-radius: 7px;
+}
+
+.navbar ul {
+    overflow: auto;
+
+}
+
+.navbar ul :hover {
+    background-color: red;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 4px 1px;
+}
+
+.navbar li a {
+    padding: 3px 27px;
+    text-decoration: none;
+    color: white;
+}
+
+.UN {
+    color: mediumblue;
+    font-size: xx-large;
+    font-family: monospace;
+    font-style: oblique;
+    text-align: center;
+}
+
+.PW {
+    color: mediumblue;
+    font-size: xx-large;
+    font-family: monospace;
+    font-style: oblique;
+    text-align: center;
+}
+
+.SB {
+    text-align: center;
+}
+
+input {
+    color: #000002;
+    background-color: #ba5ad5;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    border-radius: 135px;
+
+
+}
+
+a {
+    font-size: x-large;
+    color: rgb(205, 45, 211);
+}
